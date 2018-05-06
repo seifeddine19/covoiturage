@@ -1,0 +1,245 @@
+/* content */
+body{ margin:0px; padding:0px;}
+
+.our-customer-block{ margin:0px; padding:0px; float:left; width:100%; text-align:center;}
+.our-customer-block-inner{ margin:0 auto; padding:0px; width:1200px;}
+.our-customer-block span.head{color:#2578ac; font-weight:bold;
+    float: left;
+    font-size:30px;
+    margin:0 0 8px;
+    padding:0;
+    position:relative;
+    text-align:center;
+    text-transform:none;
+    width: 100%;}
+.our-customer-block span.head strong {
+    color: #2578ac;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.our-customer-block p.text {
+    color: #3c3c3c;
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+    margin: 0 0 20px;
+    padding: 0;
+    width: 100%;
+}
+
+.demo-slider{ margin:20px 0 30px; padding:0px; float:left; width:100%;}
+.demo-slider-inner{ margin:0 auto; padding:0px; width:1300px;}
+.amazingcarousel-list-wrapper li{ display:block; text-align:center;}
+
+#amazingcarousel-7 .amazingcarousel-image {	
+	position: relative;
+	padding: 0px;
+	margin:0px;
+	float:left;
+	width:100%;
+}
+#amazingcarousel-7 .amazingcarousel-image b{ margin:0 auto; padding:0px; width:131px; height:131px; display:inline-block; position:relative;}
+#amazingcarousel-7 .amazingcarousel-image b img {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius:50%;
+	border:2px solid #2578ac;
+}
+#amazingcarousel-7 .amazingcarousel-image b .client-img-icon{ width:auto; height:auto; border:none; border-radius:0%; position:absolute; bottom:0; right:0;}
+
+#amazingcarousel-7 .amazingcarousel-image div{ display:none!important;}
+
+#amazingcarousel-7 .amazingcarousel-title {
+	position:relative;
+	color:#333333;
+	margin:10px 15px;
+	text-align:left;
+	line-height:19px;
+	overflow: hidden;
+	font-size:14px;
+	float:left; width:100%;
+	text-align:center;
+}
+
+#amazingcarousel-7 .amazingcarousel-title h3{ margin:0px; padding:0px; float:left; width:100%; color:#2578ac; font-size:18px; }
+#amazingcarousel-7 .amazingcarousel-title h3 a{ margin:0px; padding:0px; float:left; width:100%; color:#2578ac; font-size:18px; }
+#amazingcarousel-7 .amazingcarousel-title b{ margin:0px; padding:0px; float:left; width:100%; color:#000; font-size:16px; font-weight:normal;}
+#amazingcarousel-7 .amazingcarousel-title p{ color: #3c3c3c; float: none; font-size: 16px; font-weight: normal; line-height: 25px; margin:0 auto; padding:2px 0 8px; width:65px; text-align:center; display:inline-block;}
+#amazingcarousel-7 .amazingcarousel-title p a{ color: #3c3c3c; float: left; font-size: 16px; font-weight: normal; line-height: 25px; margin: 0 0 20px; padding: 0; width: 100%;}
+#amazingcarousel-7 .amazingcarousel-title span{padding:0px; display:inline-block; color:#3e3e3e; font-size:14px; line-height:22px;}
+
+#amazingcarousel-7 .amazingcarousel-description {
+	position:relative;
+	color:#333333;
+	margin:6px;
+	text-align:left;
+	line-height: 14px;		
+	height: 56px;
+	overflow: hidden;
+	font-size:14px;
+}
+
+/* carousel */
+
+#amazingcarousel-container-7 { margin:0px;
+	padding:0; float:left; width:100%; 
+}
+
+@media (max-width:640px) {
+	#amazingcarousel-container-7 {
+		padding: 32px 0px; 
+	}
+}
+
+#amazingcarousel-7 .amazingcarousel-list-container { 
+    margin:0px;
+	padding:0;
+	float:left; width:100%;
+}
+
+/*#amazingcarousel-7 .amazingcarousel-list-container ul{margin:0 auto!important;}*/
+/* item */
+
+#amazingcarousel-7 .amazingcarousel-item-container {
+	text-align: center;
+	padding:0px;
+	background-color: #fff;
+	display:inline-block;
+}
+
+/* arrows */
+
+#amazingcarousel-7 .amazingcarousel-prev {
+	left: 0;
+    margin-left: -60px;
+    margin-top: -24px;
+    top: 50%;
+}
+
+#amazingcarousel-7 .amazingcarousel-next {
+	margin-right: -60px;
+    margin-top: -24px;
+    right: 0;
+    top: 50%;
+}
+
+/* navigation bullets */
+
+#amazingcarousel-7 .amazingcarousel-nav {
+	position: absolute;
+	width: 100%;
+	top: 100%;
+	z-index:999;
+}
+
+#amazingcarousel-7 .amazingcarousel-bullet-wrapper {
+	margin: 4px auto;
+}
+
+.amazingcarousel-image > div { display: none}
+
+/*******new*********/
+
+#amazingcarousel-8 .amazingcarousel-image {	
+	position: relative;
+	padding: 0px;
+}
+
+#amazingcarousel-8 .amazingcarousel-image img {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+#amazingcarousel-8 .amazingcarousel-image div{ display:none!important;}
+#amazingcarousel-8 .amazingcarousel-title {
+	position:relative;
+	color:#333333;
+	margin:10px 15px;
+	text-align:left;
+	line-height:19px;
+	height:34px;
+	overflow: hidden;
+	font-size:14px;
+}
+
+#amazingcarousel-8 .amazingcarousel-description {
+	position:relative;
+	color:#333333;
+	margin:6px;
+	text-align:left;
+	line-height: 14px;		
+	height: 56px;
+	overflow: hidden;
+	font-size:14px;
+}
+
+/* carousel */
+
+#amazingcarousel-container-7 { margin:0px;
+	padding:0; float:left; width:100%; 
+}
+
+@media (max-width:640px) {
+	#amazingcarousel-container-7 {
+		padding: 32px 0px; 
+	}
+}
+
+#amazingcarousel-8 .amazingcarousel-list-container { 
+    margin:0px;
+	padding:50px 0 0;
+	background:url(../../../../Page-Not-Found.html) no-repeat scroll top center; height:515px;
+	float:left; width:100%;
+}
+
+/* item */
+
+#amazingcarousel-8 .amazingcarousel-item-container {
+	text-align: center;
+	padding:0px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+/* arrows */
+
+#amazingcarousel-8 .bottom-buton{ margin:80px 0 0; padding:0px; float:left; width:100%; position:relative;}
+#amazingcarousel-8 .bottom-buton .bottom-buton-inner{ margin:0 auto; padding:0px; width:136px; position:relative;}
+#amazingcarousel-8 .amazingcarousel-prev {
+	left:0%;
+	top:0;
+	margin-left:0;
+	margin-top:0;
+}
+
+#amazingcarousel-8 .amazingcarousel-next {
+	right:0;
+	top:0;
+	margin-right:0;
+	margin-top:0;
+}
+
+#amazingcarousel-8 .amazingcarousel-nav {
+	position: absolute;
+	width: 100%;
+	top: 100%;
+}
+
+#amazingcarousel-8 .amazingcarousel-bullet-wrapper {
+	margin: 4px auto;
+}

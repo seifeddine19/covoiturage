@@ -1,0 +1,161 @@
+body{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif;}
+
+/* - Intro Section */
+.intro-section {margin:0; padding:30px 0; float:left; width:100%; overflow:hidden; position:relative; z-index:999; top:-10px;}
+
+.intro-section .col-md-4{margin:0px; padding:0px; float:left; width:33.3%;}
+.intro-section{
+	position:relative;
+	z-index:1;
+}
+.intro-section .intro-content {
+	background-color:#fcd846;
+	background:url(../../../images/home/Theme36/box1.jpg) no-repeat;
+	background-size:cover;
+	position: relative;
+	padding: 0 10%;
+	margin-top: -20px;
+	-webkit-transition: all 1s ease 0s;
+	-moz-transition: all 1s ease 0s;
+	-o-transition: all 1s ease 0s;
+	transition: all 1s ease 0s;
+	text-align:center;
+	height: 223px;
+    
+}
+.intro-section .box1 .intro-content{padding: 0 10%;}
+.box1{margin:0px 0 0; position}
+.intro-section .intro-content::before,
+.intro-section .intro-content::after {
+	content:"";
+	position:absolute;
+	bottom:0;
+	height:0;
+	width:0;
+	-webkit-transition: all 1s ease 0s;
+	-moz-transition: all 1s ease 0s;
+	-o-transition: all 1s ease 0s;
+	transition: all 1s ease 0s;
+
+}
+.intro-section .intro-content::before {
+	right:0;
+	border-top:10px solid #fc695a;
+	border-right:10px solid transparent;
+	opacity:0;
+}
+.intro-section .intro-content::after {
+	border-top:10px solid #fc695a;
+	border-left:10px solid transparent;
+	left:0;
+	opacity:0;
+}
+.intro-section .intro-content:hover {
+	background-color:#f2cb28;
+	background:url(../../../images/home/Theme36/box1-bg.jpg) no-repeat;
+	background-size:cover;
+	margin-top:-30px;
+	margin-left:-10px;
+	margin-right:-10px;
+	z-index:1;
+}
+.intro-section .intro-content:hover::before {
+	opacity:1;
+	margin-bottom:-10px;
+}
+.intro-section .intro-content:hover::after {
+	opacity:1;
+	margin-bottom:-10px;
+}
+.intro-section .intro-content img {
+	position:absolute;
+	left:60px;
+	top:35%;
+}
+.intro-section .intro-content h5,
+.intro-section .intro-content h3 {
+	color:#fff;
+	font-size:29px;
+	letter-spacing:0.29px;
+	margin:62px 0 0;
+	word-wrap:break-word;
+	text-transform:capitalize;
+    float:left;
+	width:100%
+}
+.intro-section .intro-content h3 {
+	margin-top:0;
+	margin-bottom:0;
+}
+.intro-section .intro-content p {
+	color:#fff;
+	font-size:15px;
+	letter-spacing:0.15px;
+	line-height:30px;
+	margin-bottom:0;
+	margin-top:20px;
+}
+
+.team-section{ margin:0px; padding:0px; float:left; width:100%;}
+.team-section .team-section-inner{ margin:0px; padding:0px; float:left; width:100%;}
+.team-section .col-md-3 { margin:0px; padding:0px; float:left; width:100%;}
+.team-section .team-box{ margin:0px; padding:0px; float:left; width:100%;}
+.team-section .team-box strong{ margin:0 auto; padding:0 0 10px; float:none; display:block; width:138px; border:1px solid #ccc; border-bottom:none;}
+.team-section .team-box strong img{ max-width:100%;} 
+.team-section .team-box .team-content {
+    padding:8px 0 0;
+    background:#FFFFFF;
+	text-align:center;
+	border-top:1px solid #ccc;
+	display:inline-block;
+	width:100%;
+	float:left;
+	-webkit-transition: all 1s ease 0s;
+	-moz-transition: all 1s ease 0s;
+	-o-transition: all 1s ease 0s;
+	transition: all 1s ease 0s;
+	position:relative;
+	z-index:999;
+}
+.team-section .team-content h3 {
+	color:#111;
+	font-size:19px;
+}
+.team-section .team-content h3 a{color:#111;}
+
+.team-section .team-content h5 {
+	color: #444;
+	font-size: 12px;
+	letter-spacing: 1.8px;
+	margin-bottom: 25px;
+}
+.team-section .team-content ul {
+	padding-left: 0;
+	margin-bottom: 0;
+	float:left;
+	width:100%;
+	background:#FFFFFF
+}
+.team-section .team-content ul li {
+	display:inline-block;
+	margin:0 0 5px; 
+	padding:0px; 
+	float:left; 
+	width:100%;
+}
+.team-section .team-content ul li b {
+	opacity:0;
+	float:left;
+	width:100%;
+	font-weight:normal;
+}
+
+.team-section .team-content ul li b.star{margin:0 auto; float:none; width:65px; display:block;}
+
+.team-section .team-box:hover .team-content {
+	margin-top:-30px;
+	background-color:#fff;
+}
+.team-section .team-box:hover .team-content ul li b {
+	opacity:1;
+}

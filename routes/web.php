@@ -14,3 +14,17 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/welcome', function () {
+    return view('welcomef');
+});
+
+Route::get('/signup', function () {
+    return view('sing-up');
+});
+
+Route::get('/offer-ride', function () {
+    return view('offer-ride');
+});
+
+
